@@ -10,9 +10,9 @@ using Newtonsoft.Json;
 
 namespace DotNetCoreAzure.Functions
 {
-    public static class Function1
+    public static class DogFunction
     {
-        [FunctionName("Function1")]
+        [FunctionName("DogFunction")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             ILogger log)

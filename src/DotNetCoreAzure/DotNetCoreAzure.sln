@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreAzure.Functions", "DotNetCoreAzure.Functions\DotNetCoreAzure.Functions.csproj", "{A8C44D3D-0B4A-442E-B857-8CC2254C7190}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreAzure.WebApp", "DotNetCoreAzure.WebApp\DotNetCoreAzure.WebApp.csproj", "{C879FF1B-072C-428B-AEEF-D7EE86EA4629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreAzure.Common", "DotNetCoreAzure.Common\DotNetCoreAzure.Common.csproj", "{6BA4EB18-F76C-4570-A536-8C105A09A15E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A8C44D3D-0B4A-442E-B857-8CC2254C7190}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8C44D3D-0B4A-442E-B857-8CC2254C7190}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8C44D3D-0B4A-442E-B857-8CC2254C7190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C879FF1B-072C-428B-AEEF-D7EE86EA4629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C879FF1B-072C-428B-AEEF-D7EE86EA4629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C879FF1B-072C-428B-AEEF-D7EE86EA4629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C879FF1B-072C-428B-AEEF-D7EE86EA4629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA4EB18-F76C-4570-A536-8C105A09A15E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA4EB18-F76C-4570-A536-8C105A09A15E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA4EB18-F76C-4570-A536-8C105A09A15E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA4EB18-F76C-4570-A536-8C105A09A15E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
